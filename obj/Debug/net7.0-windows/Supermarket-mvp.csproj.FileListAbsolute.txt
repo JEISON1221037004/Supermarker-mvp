@@ -1,0 +1,17 @@
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\bin\Debug\net7.0-windows\Supermarket-mvp.exe
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\bin\Debug\net7.0-windows\Supermarket-mvp.deps.json
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\bin\Debug\net7.0-windows\Supermarket-mvp.runtimeconfig.json
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\bin\Debug\net7.0-windows\Supermarket-mvp.dll
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\bin\Debug\net7.0-windows\Supermarket-mvp.pdb
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket_mvp.Properties.Resources.resources
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket_mvp.Views.PayModelView.resources
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.csproj.GenerateResource.cache
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.AssemblyInfoInputs.cache
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.AssemblyInfo.cs
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.csproj.CoreCompileInputs.cache
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.dll
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\refint\Supermarket-mvp.dll
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.pdb
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.genruntimeconfig.cache
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\ref\Supermarket-mvp.dll
