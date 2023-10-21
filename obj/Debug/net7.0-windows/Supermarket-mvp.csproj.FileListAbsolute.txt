@@ -41,3 +41,4 @@ C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Sup
 C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.csproj.AssemblyReference.cache
 C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket_mvp.Views.PayModeView.resources
 C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.csproj.CopyComplete
+C:\Users\jeiso\OneDrive\Documentos\PRACTICA_LABORATORIO LEMGUAJE INFORMATICO\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket_mvp.Views.MainView.resources
