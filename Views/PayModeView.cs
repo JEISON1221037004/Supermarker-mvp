@@ -10,49 +10,49 @@ using System.Windows.Forms;
 
 namespace Supermarket_mvp.Views
 {
-    public partial class PayModelView : Form IPayModeView
+    public partial class PayModeView : Form, IPayModeView
     {
         private bool isEdit;
         private bool isSuccessful;
         private string message;
 
-        public string payModeId 
+        public string payModeId
         {
             get { return TxtPayModeId.Text; }
-            set { TxtPayModeId.Text = value; } 
+            set { TxtPayModeId.Text = value; }
         }
-        public string payModeName 
+        public string payModeName
         {
-            get { return TxtPayModeName.Text; } 
-            set { TxtPayModeName.Text = value;}  
+            get { return TxtPayModeName.Text; }
+            set { TxtPayModeName.Text = value; }
         }
-        public string PayModeObservation 
+        public string PayModeObservation
         {
             get { return TxtPayModeObservation.Text; }
-            set { TxtPayModeObservation.Text = value; } 
+            set { TxtPayModeObservation.Text = value; }
         }
         public string SearchValue
         {
             get { return TxtSearch.Text; }
             set { TxtSearch.Text = value; }
         }
-        public bool IsEdit 
+        public bool IsEdit
         {
             get { return isEdit; }
-            set { isEdit = value; } 
+            set { isEdit = value; }
         }
-        public bool IsSuccessful 
+        public bool IsSuccessful
         {
             get { return isSuccessful; }
-            set { isSuccessful = value; } 
+            set { isSuccessful = value; }
         }
-        public string Message 
+        public string Message
         {
             get { return message; }
-            set { message = value; } 
+            set { message = value; }
         }
 
-        public PayModelView()
+        public PayModeView()
         {
             InitializeComponent();
             AssociateAndRaiseViewEvents();
