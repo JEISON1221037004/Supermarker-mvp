@@ -69,9 +69,12 @@
             // 
             // BtnExit
             // 
-            BtnExit.Location = new Point(79, 388);
+            BtnExit.BackgroundImage = Properties.Resources.salida;
+            BtnExit.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnExit.Dock = DockStyle.Bottom;
+            BtnExit.Location = new Point(0, 368);
             BtnExit.Name = "BtnExit";
-            BtnExit.Size = new Size(75, 23);
+            BtnExit.Size = new Size(200, 82);
             BtnExit.TabIndex = 2;
             BtnExit.UseVisualStyleBackColor = true;
             // 
