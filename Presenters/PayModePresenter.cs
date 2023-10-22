@@ -46,7 +46,7 @@ namespace Supermarket_mvp.Presenters
 
         private void CancelAction(object? sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            CleanViewFields();
         }
 
         private void SavePayMode(object? sender, EventArgs e)
@@ -73,14 +73,36 @@ namespace Supermarket_mvp.Presenters
             }
             catch (Exception ex) 
             {
-                view.IsSuccessful = false;
+                view.IsSuccessful = true;
+                loadAllPayModeList();
+                CleanViewFields();
                 view.Message = ex.Message;
             }
-        }   
+        }
+
+        private void CleanViewFields()
+        {
+            view.payModeId = "0";
+            view.payModeName = "";
+            view.PayModeObservation = "";
+        }
 
         private void DeleteSelectedPayMode(object? sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            try 
+            {
+                var payMode = (PayModeModel)payModeBindingSource.Current;
+
+                repository.Delete(payMode.Id);
+                view.IsSuccessful = true;
+                view.Message = "Pay Mode delete successfully";
+                loadAllPayModeList();
+            }
+            catch (Exception ex)
+            {
+                view.IsSuccessful= true;
+                view.Message = "An error ocurred, could not delete pay mode";
+            }
         }
 
         private void LoadSelectPayModeToEdit(object? sender, EventArgs e)

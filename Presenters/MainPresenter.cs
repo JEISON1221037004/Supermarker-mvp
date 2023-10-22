@@ -19,7 +19,7 @@ namespace Supermarket_mvp.Presenters
             this.mainView = mainView;
             this.sqlConnectionString = sqlConnectionString;
 
-            this.mainView.ShowProductView += ShowPayModeView;
+            this.mainView.ShowPayModeView += ShowPayModeView;
         }
 
         private void ShowPayModeView(object? sender, EventArgs e)
