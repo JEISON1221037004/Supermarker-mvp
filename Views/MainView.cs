@@ -28,5 +28,10 @@ namespace Supermarket_mvp.Views
         {
 
         }
+
+        private void BtnPayMode_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -101,7 +101,7 @@
             DgPayMode.Name = "DgPayMode";
             DgPayMode.ReadOnly = true;
             DgPayMode.RowTemplate.Height = 25;
-            DgPayMode.Size = new Size(580, 121);
+            DgPayMode.Size = new Size(584, 125);
             DgPayMode.TabIndex = 1;
             DgPayMode.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -111,7 +111,7 @@
             BtnNew.BackColor = Color.LightGray;
             BtnNew.ForeColor = SystemColors.ControlDarkDark;
             BtnNew.Image = Properties.Resources._new;
-            BtnNew.Location = new Point(637, 56);
+            BtnNew.Location = new Point(641, 56);
             BtnNew.Name = "BtnNew";
             BtnNew.Size = new Size(113, 45);
             BtnNew.TabIndex = 2;
@@ -122,7 +122,7 @@
             BtnEdit.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnEdit.BackColor = Color.LightGray;
             BtnEdit.Image = Properties.Resources.edit;
-            BtnEdit.Location = new Point(637, 121);
+            BtnEdit.Location = new Point(641, 121);
             BtnEdit.Name = "BtnEdit";
             BtnEdit.Size = new Size(113, 45);
             BtnEdit.TabIndex = 3;
@@ -162,7 +162,7 @@
             BtnSearch.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnSearch.BackColor = Color.LightGray;
             BtnSearch.Image = Properties.Resources.search_small;
-            BtnSearch.Location = new Point(529, 38);
+            BtnSearch.Location = new Point(533, 38);
             BtnSearch.Name = "BtnSearch";
             BtnSearch.Size = new Size(59, 39);
             BtnSearch.TabIndex = 8;
@@ -170,7 +170,7 @@
             // 
             // TxtSearch
             // 
-            TxtSearch.BackColor = SystemColors.HighlightText;
+            TxtSearch.BackColor = SystemColors.Info;
             TxtSearch.Location = new Point(14, 47);
             TxtSearch.Multiline = true;
             TxtSearch.Name = "TxtSearch";
@@ -193,7 +193,7 @@
             BtnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnClose.BackColor = Color.LightGray;
             BtnClose.Image = Properties.Resources.cerrar;
-            BtnClose.Location = new Point(637, 254);
+            BtnClose.Location = new Point(641, 254);
             BtnClose.Name = "BtnClose";
             BtnClose.Size = new Size(113, 45);
             BtnClose.TabIndex = 5;
@@ -204,7 +204,7 @@
             BtnDelete.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnDelete.BackColor = Color.LightGray;
             BtnDelete.Image = Properties.Resources.delete;
-            BtnDelete.Location = new Point(637, 185);
+            BtnDelete.Location = new Point(641, 185);
             BtnDelete.Name = "BtnDelete";
             BtnDelete.Size = new Size(113, 45);
             BtnDelete.TabIndex = 4;
@@ -223,7 +223,7 @@
             tabPagePayModeDetail.Location = new Point(4, 24);
             tabPagePayModeDetail.Name = "tabPagePayModeDetail";
             tabPagePayModeDetail.Padding = new Padding(3);
-            tabPagePayModeDetail.Size = new Size(792, 422);
+            tabPagePayModeDetail.Size = new Size(792, 322);
             tabPagePayModeDetail.TabIndex = 1;
             tabPagePayModeDetail.Text = "Pay Mode Detail";
             tabPagePayModeDetail.UseVisualStyleBackColor = true;

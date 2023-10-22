@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            BtnExit = new Button();
             BtnPayMode = new Button();
             pictureBox1 = new PictureBox();
-            BtnExit = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -47,26 +47,6 @@
             panel1.Size = new Size(200, 450);
             panel1.TabIndex = 0;
             // 
-            // BtnPayMode
-            // 
-            BtnPayMode.BackgroundImage = Properties.Resources.buy;
-            BtnPayMode.BackgroundImageLayout = ImageLayout.Zoom;
-            BtnPayMode.Location = new Point(12, 68);
-            BtnPayMode.Name = "BtnPayMode";
-            BtnPayMode.Size = new Size(171, 79);
-            BtnPayMode.TabIndex = 1;
-            BtnPayMode.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.sell;
-            pictureBox1.Location = new Point(12, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(171, 50);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
             // BtnExit
             // 
             BtnExit.BackgroundImage = Properties.Resources.salida;
@@ -77,6 +57,27 @@
             BtnExit.Size = new Size(200, 82);
             BtnExit.TabIndex = 2;
             BtnExit.UseVisualStyleBackColor = true;
+            // 
+            // BtnPayMode
+            // 
+            BtnPayMode.BackgroundImage = Properties.Resources.buy;
+            BtnPayMode.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnPayMode.Location = new Point(12, 68);
+            BtnPayMode.Name = "BtnPayMode";
+            BtnPayMode.Size = new Size(171, 79);
+            BtnPayMode.TabIndex = 1;
+            BtnPayMode.UseVisualStyleBackColor = true;
+            BtnPayMode.Click += BtnPayMode_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.sell;
+            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(171, 50);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // MainView
             // 
